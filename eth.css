@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  min-height: 100vh;
+  max-width: 400px;
+  background-color: hsl(217, 54%, 11%);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  margin-top: 5vh;
+  /*display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-items: center;*/
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  border: 25px solid hsl(216, 50%, 16%);
+  /*box-shadow: 10px 10px 6px rgb(88, 88, 84);*/
+}
+img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+}
+img.avatar {
+  width: 40px;
+  display: inline-block;
+  border-radius: 50px;
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+img.avatar:hover {
+  filter: grayscale(1);
+  transform: scaleX(-1);
+  cursor: wait;
+}
+p {
+  padding: 0 12px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+p:nth-child(3), /* Our equil... */
+      span:nth-child(5),
+      .creation {
+  color: hsl(215, 51%, 70%);
+}
+span:nth-child(4) {
+  /* span eth */
+  color: hsl(178, 100%, 50%);
+  padding-right: 75px;
+}
+span:nth-child(5) {
+  /* span clock */
+  padding-left: 75px;
+}
+p:nth-child(3) {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.two-colors {
+  vertical-align: super;
+  font-size: 18px;
+}
+.eth {
+  display: inline-block;
+  width: 14px;
+  height: 19px;
+}
+.clock {
+  display: inline-block;
+  width: 18px;
+}
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  color: hsl(217, 54%, 11%);
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.attribution a {
+  color: hsl(350, 77%, 47%);
+  text-decoration: none;
+}
+.attribution:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+hr {
+  color: hsl(215, 32%, 27%);
+}
+.jules {
+  color: hsl(0, 0%, 100%);
+}
+span {
+  vertical-align: middle;
+}
