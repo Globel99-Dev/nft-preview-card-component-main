@@ -49,14 +49,14 @@ h2 {
   font-weight: 600;
 }
 p:nth-child(3), /* Our equil... */
-      span:nth-child(5),
-      .creation {
+span:nth-child(5),
+.creation {
   color: hsl(215, 51%, 70%);
 }
 span:nth-child(4) {
   /* span eth */
   color: hsl(178, 100%, 50%);
-  padding-right: 74px;
+  padding-right: 50px;
 }
 span:nth-child(5) {
   /* span clock */
@@ -69,7 +69,7 @@ p:nth-child(3) {
 }
 .two-colors {
   vertical-align: super;
-  font-size: 18px;
+  font-size: 16px;
 }
 .eth {
   display: inline-block;
