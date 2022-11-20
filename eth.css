@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 body {
   min-height: 100vh;
-  max-width: 400px;
+  /*maybe min and max-width will be a problem.*/
+  min-width: 350px;
+  max-width: 375px;
   background-color: hsl(217, 54%, 11%);
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +12,7 @@ body {
 }
 .container {
   position: relative;
-  margin-top: 5vh;
+  /*margin-top: 5vh;*/
   /*display: flex;
         flex-flow: column;
         align-items: center;
@@ -58,7 +60,7 @@ span:nth-child(4) {
 }
 span:nth-child(5) {
   /* span clock */
-  padding-left: 75px;
+  padding-left: 53px;
 }
 p:nth-child(3) {
   padding: 0;
